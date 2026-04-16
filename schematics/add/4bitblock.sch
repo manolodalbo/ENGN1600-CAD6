@@ -35,7 +35,7 @@ N 1130 -110 1190 -110 {lab=P3}
 N 1200 -330 1260 -330 {lab=P3}
 N 1200 -290 1260 -290 {lab=P2}
 N 1200 -250 1260 -250 {lab=P1}
-N 1200 -210 1260 -210 {lab=P0}
+N 1200 -210 1260 -210 {lab=P3}
 N 1460 -270 1520 -270 {lab=BP}
 N 1320 -150 1320 -100 {lab=BP}
 N 340 -200 340 -140 {lab=S1}
@@ -55,7 +55,7 @@ C {ipin.sym} -130 -90 0 0 {name=p2 lab=B0}
 C {ipin.sym} -130 -70 0 0 {name=p3 lab=Cin}
 C {ipin.sym} -310 -270 0 0 {name=p16 lab=S0}
 C {ipin.sym} -310 -230 0 0 {name=p17 lab=S1}
-C {schematics/add/1bitblock.sym} 0 -90 0 0 {name=x1}
+C {1bitblock.sym} 0 -90 0 0 {name=x1}
 C {lab_wire.sym} 10 -170 1 0 {name=p27 sig_type=std_logic lab=S0}
 C {lab_wire.sym} -10 -170 1 0 {name=p28 sig_type=std_logic lab=S1}
 C {opin.sym} 120 -90 0 0 {name=p26 lab=Y0}
@@ -65,16 +65,16 @@ C {ipin.sym} 570 -110 0 0 {name=p8 lab=A2}
 C {ipin.sym} 570 -90 0 0 {name=p9 lab=B2}
 C {ipin.sym} 920 -110 0 0 {name=p10 lab=A3}
 C {ipin.sym} 920 -90 0 0 {name=p11 lab=B3}
-C {schematics/add/1bitblock.sym} 350 -90 0 0 {name=x2}
+C {1bitblock.sym} 350 -90 0 0 {name=x2}
 C {opin.sym} 480 -90 0 0 {name=p20 lab=Y1}
-C {schematics/add/1bitblock.sym} 700 -90 0 0 {name=x3}
+C {1bitblock.sym} 700 -90 0 0 {name=x3}
 C {opin.sym} 830 -90 0 0 {name=p29 lab=Y2}
-C {schematics/add/1bitblock.sym} 1050 -90 0 0 {name=x4}
+C {1bitblock.sym} 1050 -90 0 0 {name=x4}
 C {opin.sym} 1190 -90 0 0 {name=p35 lab=Y3}
 C {opin.sym} 1440 -30 0 0 {name=p19 lab=Cout}
-C {schematics/add/MUX21.sym} 1320 -30 0 0 {name=x5}
+C {MUX21.sym} 1320 -30 0 0 {name=x5}
 C {lab_wire.sym} 1220 10 0 0 {name=p25 sig_type=std_logic lab=Cin}
-C {schematics/add/AND4.sym} 1320 -270 0 0 {name=x6}
+C {AND4.sym} 1320 -270 0 0 {name=x6}
 C {lab_wire.sym} 110 -110 0 0 {name=p34 sig_type=std_logic lab=P0}
 C {lab_wire.sym} 470 -110 0 0 {name=p36 sig_type=std_logic lab=P1}
 C {lab_wire.sym} 820 -110 0 0 {name=p37 sig_type=std_logic lab=P2}
