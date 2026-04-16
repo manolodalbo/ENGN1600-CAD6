@@ -1,34 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <report-database>
  <description>GF180 ANTENNA DRC Run Report at</description>
- <original-file>/foss/designs/ENGN1600-CAD6/quick_adder.gds</original-file>
+ <original-file>/foss/designs/ENGN1600-CAD6/PC.gds</original-file>
  <generator>drc: script='/foss/pdks/gf180mcuD/libs.tech/klayout/macros/gf180mcu_drc.lydrc'</generator>
- <top-cell>quick_adder</top-cell>
+ <top-cell>PC</top-cell>
  <tags>
-  <tag>
-   <name>waived</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>red</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>green</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>blue</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>yellow</name>
-   <description/>
-  </tag>
-  <tag>
-   <name>important</name>
-   <description/>
-  </tag>
  </tags>
  <categories>
   <category>
@@ -163,7 +139,7 @@
  </categories>
  <cells>
   <cell>
-   <name>quick_adder</name>
+   <name>PC</name>
    <variant/>
    <layout-name/>
    <references>
