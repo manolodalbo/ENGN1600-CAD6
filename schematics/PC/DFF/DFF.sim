@@ -1,0 +1,265 @@
+| units: 0.5 tech: gf180mcuD format: MIT
+x m1_2005_329# m2_1891_n1355# TSI_0/pfet$1$1_0/a_52_n92# vdd s=104000,1860 d=41600,904 l=56 w=800 x=2019 y=1396 pfet_03v3
+x TG_1/c TSI_0/pfet$1$1_0/a_52_n92# vdd vdd s=41600,904 d=104000,1860 l=56 w=800 x=2178 y=1396 pfet_03v3
+x m1_2005_329# m2_1891_n1355# TSI_0/nfet$1$1_0/a_52_n92# vss s=48800,1044 d=20800,504 l=56 w=400 x=2014 y=225 nfet_03v3
+x TG_1/cbar TSI_0/nfet$1$1_0/a_52_n92# vss vss s=20800,504 d=48800,1044 l=56 w=400 x=2173 y=225 nfet_03v3
+x D m1_n1441_369# TSI_1/pfet$1$1_0/a_52_n92# vdd s=104000,1860 d=41600,904 l=56 w=800 x=-689 y=-1262 pfet_03v3
+x TG_1/c TSI_1/pfet$1$1_0/a_52_n92# vdd vdd s=41600,904 d=104000,1860 l=56 w=800 x=-848 y=-1262 pfet_03v3
+x D m1_n1441_369# TSI_1/nfet$1$1_0/a_52_n92# vss s=48800,1044 d=20800,504 l=56 w=400 x=-684 y=-2433 nfet_03v3
+x TG_1/cbar TSI_1/nfet$1$1_0/a_52_n92# vss vss s=20800,504 d=48800,1044 l=56 w=400 x=-843 y=-2433 nfet_03v3
+x TG_1/c m2_1891_n1355# m1_661_560# vss s=24400,644 d=24400,644 l=56 w=200 x=1876 y=-2483 nfet_03v3
+x TG_1/cbar m1_661_560# m2_1891_n1355# vdd s=52000,1060 d=52000,1060 l=56 w=400 x=1821 y=-1625 pfet_03v3
+x CLK TG_1/cbar vdd vdd s=26000,660 d=26000,660 l=56 w=200 x=2268 y=2605 pfet_03v3
+x CLK TG_1/cbar vss vss s=24400,644 d=24400,644 l=56 w=200 x=2264 y=3165 nfet_03v3
+x TG_1/c m1_n1441_369# m1_n575_427# vss s=24400,644 d=24400,644 l=56 w=200 x=-674 y=62 nfet_03v3
+x TG_1/cbar m1_n575_427# m1_n1441_369# vdd s=52000,1060 d=52000,1060 l=56 w=400 x=-619 y=920 pfet_03v3
+x TG_1/cbar TG_1/c vdd vdd s=26000,660 d=26000,660 l=56 w=200 x=230 y=2623 pfet_03v3
+x TG_1/cbar TG_1/c vss vss s=24400,644 d=24400,644 l=56 w=200 x=226 y=3183 nfet_03v3
+x m1_4064_216# Qb vdd vdd s=26000,660 d=26000,660 l=56 w=200 x=5042 y=519 pfet_03v3
+x m1_4064_216# Qb vss vss s=24400,644 d=24400,644 l=56 w=200 x=5046 y=-41 nfet_03v3
+x m1_2005_329# m1_4064_216# vdd vdd s=26000,660 d=26000,660 l=56 w=200 x=3993 y=543 pfet_03v3
+x m1_2005_329# m1_4064_216# vss vss s=24400,644 d=24400,644 l=56 w=200 x=3997 y=-17 nfet_03v3
+x m1_2005_329# Q vdd vdd s=26000,660 d=26000,660 l=56 w=200 x=4978 y=-2021 pfet_03v3
+x m1_2005_329# Q vss vss s=24400,644 d=24400,644 l=56 w=200 x=4982 y=-2581 nfet_03v3
+x m1_n1441_369# m1_661_560# vdd vdd s=26000,660 d=26000,660 l=56 w=200 x=853 y=-2023 pfet_03v3
+x m1_n1441_369# m1_661_560# vss vss s=24400,644 d=24400,644 l=56 w=200 x=857 y=-2583 nfet_03v3
+x RSTn m1_n575_427# NAND2_1/m1_n492_n294# vss s=24400,644 d=24400,644 l=56 w=200 x=234 y=430 nfet_03v3
+x m1_661_560# NAND2_1/m1_n492_n294# vss vss s=24400,644 d=24400,644 l=56 w=200 x=798 y=428 nfet_03v3
+x m1_661_560# m1_n575_427# vdd vdd s=10400,304 d=26000,660 l=56 w=200 x=668 y=897 pfet_03v3
+x RSTn vdd m1_n575_427# vdd s=26000,660 d=10400,304 l=56 w=200 x=508 y=897 pfet_03v3
+x RSTn m1_2005_329# NAND2_0/m1_n492_n294# vss s=24400,644 d=24400,644 l=56 w=200 x=3683 y=-2110 nfet_03v3
+x m2_1891_n1355# NAND2_0/m1_n492_n294# vss vss s=24400,644 d=24400,644 l=56 w=200 x=3119 y=-2112 nfet_03v3
+x m2_1891_n1355# m1_2005_329# vdd vdd s=10400,304 d=26000,660 l=56 w=200 x=3249 y=-1643 pfet_03v3
+x RSTn vdd m1_2005_329# vdd s=26000,660 d=10400,304 l=56 w=200 x=3409 y=-1643 pfet_03v3
+C TG_1/c TG_1/cbar 2.9
+C TG_1/cbar vdd 3.4
+C RSTn vdd 2.9
+C TG_1/c vdd 4.3
+R NAND2_0/m1_n492_n294# 41
+= NAND2_0/m1_n492_n294# NAND2_0/nfet_1/a_n84_0#
+= NAND2_0/m1_n492_n294# NAND2_0/nfet_0/a_94_0#
+C m1_2005_329#0 3.5
+R m1_2005_329# 547
+= m1_2005_329# inv_3/a_n604_652#
+= m1_2005_329# inv_3/pfet_0/a_n289_80#
+= m1_2005_329# inv_3/nfet$2_0/a_n287_80#
+= m1_2005_329# TSI_0/a_99_n1102#
+= m1_2005_329# TSI_0/pfet$1$1_0/a_n14_768#
+= m1_2005_329# TSI_0/nfet$1$1_0/a_n12_368#
+= m1_2005_329# inv_4/a_n604_652#
+= m1_2005_329# inv_4/pfet_0/a_n289_80#
+= m1_2005_329# inv_4/nfet$2_0/a_n287_80#
+= m1_2005_329# m1_3722_n2236#
+= m1_2005_329# NAND2_0/m1_n402_n170#
+= m1_2005_329# NAND2_0/pfet$1$2_0/a_94_0#
+= m1_2005_329# NAND2_0/nfet_0/a_n84_0#
+C RSTn0 4.5
+R RSTn 323
+= RSTn NAND2_1/a_n313_n139#
+= RSTn NAND2_1/pfet$1$2_0/a_28_260#
+= RSTn NAND2_1/nfet_0/a_30_260#
+= RSTn NAND2_0/a_n313_n139#
+= RSTn NAND2_0/pfet$1$2_0/a_28_260#
+= RSTn NAND2_0/nfet_0/a_30_260#
+R NAND2_1/m1_n492_n294# 41
+= NAND2_1/m1_n492_n294# NAND2_1/nfet_1/a_n84_0#
+= NAND2_1/m1_n492_n294# NAND2_1/nfet_0/a_94_0#
+R m1_661_560# 232
+= m1_661_560# NAND2_1/a_n602_n134#
+= m1_661_560# NAND2_1/pfet$1$2_0/a_188_260#
+= m1_661_560# NAND2_1/nfet_1/a_30_260#
+= m1_661_560# TG_0/m1_343_154#
+= m1_661_560# TG_0/nfet$1_0/a_283_n10#
+= m1_661_560# TG_0/pfet$1_0/a_n283_10#
+= m1_661_560# inv_5/m1_n746_383#
+= m1_661_560# inv_5/pfet_0/a_n409_n180#
+= m1_661_560# inv_5/nfet$2_0/a_n401_n180#
+R Q 22
+= Q inv_4/m1_n746_383#
+= Q inv_4/pfet_0/a_n409_n180#
+= Q inv_4/nfet$2_0/a_n401_n180#
+R m1_4064_216# 152
+= m1_4064_216# inv_2/a_n604_652#
+= m1_4064_216# inv_2/pfet_0/a_n289_80#
+= m1_4064_216# inv_2/nfet$2_0/a_n287_80#
+= m1_4064_216# inv_3/m1_n746_383#
+= m1_4064_216# inv_3/pfet_0/a_n409_n180#
+= m1_4064_216# inv_3/nfet$2_0/a_n401_n180#
+R Qb 22
+= Qb inv_2/m1_n746_383#
+= Qb inv_2/pfet_0/a_n409_n180#
+= Qb inv_2/nfet$2_0/a_n401_n180#
+R m1_n575_427# 97
+= m1_n575_427# NAND2_1/m1_n402_n170#
+= m1_n575_427# NAND2_1/pfet$1$2_0/a_94_0#
+= m1_n575_427# NAND2_1/nfet_0/a_n84_0#
+= m1_n575_427# TG_1/m1_343_154#
+= m1_n575_427# TG_1/nfet$1_0/a_283_n10#
+= m1_n575_427# TG_1/pfet$1_0/a_n283_10#
+R CLK 130
+= CLK inv_0/a_n604_652#
+= CLK inv_0/pfet_0/a_n289_80#
+= CLK inv_0/nfet$2_0/a_n287_80#
+R m2_1891_n1355# 270
+= m2_1891_n1355# TSI_0/m1_222_n517#
+= m2_1891_n1355# TSI_0/pfet$1$1_0/a_n134_n92#
+= m2_1891_n1355# TSI_0/nfet$1$1_0/a_n126_n92#
+= m2_1891_n1355# NAND2_0/a_n602_n134#
+= m2_1891_n1355# NAND2_0/pfet$1$2_0/a_188_260#
+= m2_1891_n1355# NAND2_0/nfet_1/a_30_260#
+= m2_1891_n1355# m1_1914_n1984#
+= m2_1891_n1355# TG_0/m1_125_152#
+= m2_1891_n1355# TG_0/nfet$1_0/a_105_n10#
+= m2_1891_n1355# TG_0/pfet$1_0/a_n97_10#
+R TSI_1/nfet$1$1_0/a_52_n92# 25
+C m1_n1441_369#0 3.2
+R m1_n1441_369# 270
+= m1_n1441_369# TG_1/m1_125_152#
+= m1_n1441_369# TG_1/nfet$1_0/a_105_n10#
+= m1_n1441_369# TG_1/pfet$1_0/a_n97_10#
+= m1_n1441_369# inv_5/a_n604_652#
+= m1_n1441_369# inv_5/pfet_0/a_n289_80#
+= m1_n1441_369# inv_5/nfet$2_0/a_n287_80#
+= m1_n1441_369# TSI_1/m1_222_n517#
+= m1_n1441_369# TSI_1/pfet$1$1_0/a_n134_n92#
+= m1_n1441_369# TSI_1/nfet$1$1_0/a_n126_n92#
+C TG_1/cbar0 6.3
+R TG_1/cbar 548
+= TG_1/cbar inv_0/m1_n746_383#
+= TG_1/cbar inv_0/pfet_0/a_n409_n180#
+= TG_1/cbar inv_0/nfet$2_0/a_n401_n180#
+= TG_1/cbar inv_1/a_n604_652#
+= TG_1/cbar inv_1/pfet_0/a_n289_80#
+= TG_1/cbar inv_1/nfet$2_0/a_n287_80#
+= TG_1/cbar TG_1/pfet$1_0/a_n163_n126#
+= TG_1/cbar TG_0/cbar
+= TG_1/cbar TSI_0/cbar
+= TG_1/cbar TSI_0/nfet$1$1_0/a_148_368#
+= TG_1/cbar TG_0/pfet$1_0/a_n163_n126#
+= TG_1/cbar TSI_1/cbar
+= TG_1/cbar m1_n1984_2093#
+= TG_1/cbar TSI_1/nfet$1$1_0/a_148_368#
+R D 225
+= D TSI_1/a_99_n1102#
+= D TSI_1/pfet$1$1_0/a_n14_768#
+= D TSI_1/nfet$1$1_0/a_n12_368#
+R vss 696
+= vss VSUBS
+= vss inv_0/vss
+= vss inv_0/pfet_0/VSUBS
+= vss inv_0/nfet$2_0/a_n101_n180#
+= vss inv_0/VSUBS
+= vss inv_0/nfet$2_0/a_n223_n180#
+= vss inv_1/vss
+= vss inv_1/pfet_0/VSUBS
+= vss inv_1/nfet$2_0/a_n101_n180#
+= vss inv_1/VSUBS
+= vss inv_1/nfet$2_0/a_n223_n180#
+= vss inv_2/vss
+= vss inv_2/pfet_0/VSUBS
+= vss inv_2/nfet$2_0/a_n101_n180#
+= vss inv_2/VSUBS
+= vss inv_2/nfet$2_0/a_n223_n180#
+= vss inv_3/vss
+= vss inv_3/pfet_0/VSUBS
+= vss inv_3/nfet$2_0/a_n101_n180#
+= vss inv_3/VSUBS
+= vss inv_3/nfet$2_0/a_n223_n180#
+= vss TSI_0/vss
+= vss TSI_0/pfet$1$1_0/VSUBS
+= vss TSI_0/nfet$1$1_0/a_212_n92#
+= vss TSI_0/VSUBS
+= vss TSI_0/nfet$1$1_0/a_334_n92#
+= vss NAND2_1/vss
+= vss NAND2_1/pfet$1$2_0/VSUBS
+= vss NAND2_1/nfet_1/a_94_0#
+= vss NAND2_1/nfet_1/a_216_0#
+= vss NAND2_1/nfet_0/a_216_0#
+= vss NAND2_1/VSUBS
+= vss TG_1/vss
+= vss TG_1/nfet$1_0/a_n37_n10#
+= vss TG_1/VSUBS
+= vss TG_1/pfet$1_0/VSUBS
+= vss inv_4/vss
+= vss inv_4/pfet_0/VSUBS
+= vss inv_4/nfet$2_0/a_n101_n180#
+= vss inv_4/VSUBS
+= vss inv_4/nfet$2_0/a_n223_n180#
+= vss NAND2_0/vss
+= vss NAND2_0/pfet$1$2_0/VSUBS
+= vss NAND2_0/nfet_1/a_94_0#
+= vss NAND2_0/nfet_1/a_216_0#
+= vss NAND2_0/nfet_0/a_216_0#
+= vss NAND2_0/VSUBS
+= vss TG_0/vss
+= vss TG_0/nfet$1_0/a_n37_n10#
+= vss TG_0/VSUBS
+= vss TG_0/pfet$1_0/VSUBS
+= vss inv_5/vss
+= vss inv_5/pfet_0/VSUBS
+= vss inv_5/nfet$2_0/a_n101_n180#
+= vss inv_5/VSUBS
+= vss inv_5/nfet$2_0/a_n223_n180#
+= vss TSI_1/vss
+= vss TSI_1/pfet$1$1_0/VSUBS
+= vss TSI_1/nfet$1$1_0/a_212_n92#
+= vss TSI_1/VSUBS
+= vss TSI_1/nfet$1$1_0/a_334_n92#
+R TSI_1/pfet$1$1_0/a_52_n92# 55
+C TG_1/c0 10.2
+R TG_1/c 453
+= TG_1/c inv_1/m1_n746_383#
+= TG_1/c inv_1/pfet_0/a_n409_n180#
+= TG_1/c inv_1/nfet$2_0/a_n401_n180#
+= TG_1/c TSI_0/c
+= TG_1/c TSI_0/pfet$1$1_0/a_146_768#
+= TG_1/c TG_1/nfet$1_0/a_219_n142#
+= TG_1/c TG_0/c
+= TG_1/c TG_0/nfet$1_0/a_219_n142#
+= TG_1/c TSI_1/c
+= TG_1/c m1_n2583_1839#
+= TG_1/c TSI_1/pfet$1$1_0/a_146_768#
+C vdd0 24.2
+R vdd 46676
+= vdd inv_2/vdd
+= vdd inv_2/pfet_0/w_n547_n318#
+= vdd inv_2/pfet_0/a_n223_n180#
+= vdd inv_3/vdd
+= vdd inv_3/pfet_0/w_n547_n318#
+= vdd inv_3/pfet_0/a_n223_n180#
+= vdd inv_0/vdd
+= vdd inv_0/pfet_0/w_n547_n318#
+= vdd inv_0/pfet_0/a_n223_n180#
+= vdd TSI_0/vdd
+= vdd TSI_0/pfet$1$1_0/a_212_n92#
+= vdd TSI_0/pfet$1$1_0/w_n272_n230#
+= vdd NAND2_1/vdd
+= vdd NAND2_1/pfet$1$2_0/a_254_0#
+= vdd NAND2_1/pfet$1$2_0/w_n230_n138#
+= vdd inv_1/vdd
+= vdd inv_1/pfet_0/w_n547_n318#
+= vdd inv_1/pfet_0/a_n223_n180#
+= vdd NAND2_1/m1_n197_176#
+= vdd NAND2_1/pfet$1$2_0/a_n92_0#
+= vdd TG_1/vdd
+= vdd TG_1/pfet$1_0/w_n567_n128#
+= vdd TG_1/m1_491_607#
+= vdd inv_4/vdd
+= vdd inv_4/pfet_0/w_n547_n318#
+= vdd inv_4/pfet_0/a_n223_n180#
+= vdd NAND2_0/m1_n197_176#
+= vdd NAND2_0/pfet$1$2_0/a_n92_0#
+= vdd NAND2_0/vdd
+= vdd NAND2_0/pfet$1$2_0/a_254_0#
+= vdd NAND2_0/pfet$1$2_0/w_n230_n138#
+= vdd TG_0/vdd
+= vdd TG_0/pfet$1_0/w_n567_n128#
+= vdd TG_0/m1_491_607#
+= vdd inv_5/vdd
+= vdd inv_5/pfet_0/w_n547_n318#
+= vdd inv_5/pfet_0/a_n223_n180#
+= vdd TSI_1/vdd
+= vdd TSI_1/pfet$1$1_0/a_212_n92#
+= vdd TSI_1/pfet$1$1_0/w_n272_n230#
+R TSI_0/nfet$1$1_0/a_52_n92# 25
+R TSI_0/pfet$1$1_0/a_52_n92# 55
