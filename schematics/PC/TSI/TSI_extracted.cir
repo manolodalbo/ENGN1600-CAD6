@@ -1,8 +1,0 @@
-* Extracted by KLayout with GF180MCU LVS runset on : 13/02/2026 03:05
-
-.SUBCKT TSI vss vdd cbar in c out
-M$1 \$7 c vdd vdd pfet_03v3 L=0.28U W=4U AS=2.6P AD=1.04P PS=9.3U PD=4.52U
-M$2 out in \$7 vdd pfet_03v3 L=0.28U W=4U AS=1.04P AD=2.6P PS=4.52U PD=9.3U
-M$3 \$5 cbar vss vss nfet_03v3 L=0.28U W=2U AS=1.22P AD=0.52P PS=5.22U PD=2.52U
-M$4 out in \$5 vss nfet_03v3 L=0.28U W=2U AS=0.52P AD=1.22P PS=2.52U PD=5.22U
-.ENDS TSI
