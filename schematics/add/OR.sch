@@ -105,4 +105,4 @@ spiceprefix=X
 }
 C {gnd.sym} 460 130 0 0 {name=l1 lab=GND}
 C {vdd.sym} 460 -290 0 0 {name=l2 lab=vdd}
-C {INV.sym} 630 -20 0 0 {name=x1}
+C {schematics/add/INV.sym} 630 -20 0 0 {name=x1}

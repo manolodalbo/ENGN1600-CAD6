@@ -192,4 +192,4 @@ C {lab_wire.sym} -100 -90 0 0 {name=p10 sig_type=std_logic lab=IN0}
 C {lab_wire.sym} 20 -90 0 0 {name=p11 sig_type=std_logic lab=IN1}
 C {lab_wire.sym} 120 -90 0 0 {name=p12 sig_type=std_logic lab=IN2}
 C {lab_wire.sym} 240 -90 0 0 {name=p13 sig_type=std_logic lab=IN3}
-C {INV.sym} 410 -40 0 0 {name=x1}
+C {schematics/add/INV.sym} 410 -40 0 0 {name=x1}

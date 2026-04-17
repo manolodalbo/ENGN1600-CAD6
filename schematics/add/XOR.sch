@@ -49,12 +49,12 @@ N 50 -190 130 -190 {lab=Ab}
 N 490 70 570 70 {lab=Ab}
 N 490 -110 540 -110 {lab=IN1}
 N 150 160 200 160 {lab=IN1}
-N 490 -20 570 -20 {lab=Ab}
+N 490 -20 570 -20 {lab=Bb}
 N 490 160 570 160 {lab=Bb}
 N -80 -190 -30 -190 {lab=IN0}
 N 980 -180 1030 -180 {lab=IN1}
 N 820 -180 900 -180 {lab=Bb}
-N 120 -10 200 -10 {lab=#net4}
+N 120 -10 200 -10 {lab=Ab}
 N -50 -100 150 -100 {lab=IN0}
 N -50 -190 -50 -100 {lab=IN0}
 N -50 -100 -50 30 {lab=IN0}
@@ -190,5 +190,5 @@ C {lab_wire.sym} 520 160 0 1 {name=p15 sig_type=std_logic lab=Bb}
 C {lab_wire.sym} 850 -180 2 0 {name=p17 sig_type=std_logic lab=Bb}
 C {lab_wire.sym} 550 -20 0 1 {name=p5 sig_type=std_logic lab=Bb}
 C {lab_wire.sym} 70 -190 0 1 {name=p4 sig_type=std_logic lab=Ab}
-C {INV.sym} 0 -190 0 0 {name=x2}
-C {INV.sym} 950 -180 2 0 {name=x1}
+C {schematics/add/INV.sym} 0 -190 0 0 {name=x2}
+C {schematics/add/INV.sym} 950 -180 2 0 {name=x1}

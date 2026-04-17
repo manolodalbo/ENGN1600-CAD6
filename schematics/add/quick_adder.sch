@@ -55,4 +55,4 @@ C {opin.sym} 240 -60 0 0 {name=p45 lab=Y11}
 C {opin.sym} 240 -40 0 0 {name=p46 lab=Y15}
 C {opin.sym} 240 -20 0 0 {name=p47 lab=Y7}
 C {opin.sym} 240 0 0 0 {name=p48 lab=Y3}
-C {ALU.sym} 90 0 0 0 {name=x1}
+C {schematics/add/ALU.sym} 90 0 0 0 {name=x1}
